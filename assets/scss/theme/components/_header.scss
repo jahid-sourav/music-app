@@ -1,0 +1,79 @@
+// Header Starts Here
+header {
+    .navbar-nav {
+        .nav-item {
+            .active {
+                color: $white-color !important;
+
+                &::after {
+                    width: 100% !important;
+                }
+            }
+
+            .nav-link {
+                font-size: 16px;
+                font-weight: 600;
+                transition: 0.3s all linear;
+                display: inline-block;
+                padding: 0;
+                margin-left: 60px;
+                color: $white-color;
+                position: relative;
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    bottom: -5px;
+                    left: 0;
+                    background-color: $primary-color;
+                    height: 2px;
+                    width: 0%;
+                    transition: 0.3s all linear;
+                }
+
+                &:hover {
+                    color: $primary-color;
+                }
+
+                &:hover::after {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+// Header Ends Here
+
+// Responsive
+@media (max-width: 420px) {
+    .navbar-brand {
+        margin-right: 0 !important;
+
+        img {
+            max-width: 85% !important;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    header {
+        .navbar-nav {
+            margin-right: 0;
+            margin-bottom: 30px !important;
+
+            .nav-item {
+                margin-top: 25px;
+
+                .nav-link {
+                    margin-left: 0 !important;
+                }
+            }
+        }
+
+        .navbar-toggler:focus {
+            box-shadow: none !important;
+            border: 1px solid $primary-color;
+        }
+    }
+}

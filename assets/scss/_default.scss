@@ -1,5 +1,5 @@
 /*  typography Starts Here*/
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 body {
     line-height: 1.2;
@@ -61,3 +61,53 @@ h6,
 }
 
 /*  typography Ends Here*/
+
+// BG Color Starts Here
+.bg-primary {
+    background-color: $primary-color !important;
+}
+
+.bg-secondary {
+    background-color: $secondary-color !important;
+}
+
+// BG Color Ends Here
+
+// Buttons Starts Here
+.btn {
+    padding: 10px 25px !important;
+    font-size: 16px !important;
+
+    &:focus {
+        box-shadow: none !important;
+        outline: none !important;
+    }
+}
+
+.btn-primary {
+    border: 1px solid $primary-color !important;
+    background-color: $primary-color !important;
+    border-radius: 4px !important;
+
+    &:hover {
+        background-color: transparent !important;
+        color: $primary-color !important;
+    }
+}
+
+.btn-outline-primary {
+    border: 1px solid $primary-color !important;
+    color: $primary-color;
+    border-radius: 4px !important;
+
+    &:hover {
+        background-color: $primary-color;
+        color: $white-color;
+    }
+}
+
+// Buttons Ends Here
+
+// Border Radious Starts Here
+
+// Border Radious Ends Here
