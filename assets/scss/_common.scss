@@ -7,7 +7,7 @@
 }
 
 body {
-	background-color: $white-color;
+	background-color: $dark-color;
 	overflow-x: hidden;
 }
 
@@ -51,7 +51,9 @@ select {
 .py-20 {
 	padding: 20px 0px;
 }
-
+.py-70 {
+	padding: 70px 0px;
+}
 .me-50 {
 	margin-right: 50px;
 }
