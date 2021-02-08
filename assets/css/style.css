@@ -20,10 +20,10 @@ body {
 p,
 .paragraph {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.9;
-  color: #293942;
+  color: #8A8F96;
 }
 
 h1,
@@ -64,6 +64,14 @@ h6,
 }
 
 /*  typography Ends Here*/
+.text-white-50 {
+  color: #8A8F96 !important;
+}
+
+.text-info {
+  color: #7971E9 !important;
+}
+
 .bg-primary {
   background-color: #7971E9 !important;
 }
@@ -107,6 +115,10 @@ h6,
 .btn-outline-primary:hover {
   background-color: #7971E9;
   color: #F9F8FF;
+}
+
+.rounded-2 {
+  border-radius: 8px !important;
 }
 
 * {
@@ -161,6 +173,10 @@ a:focus,
 button:focus,
 select:focus {
   outline: 0;
+}
+
+.section-padding {
+  padding: 80px 0px;
 }
 
 .py-20 {

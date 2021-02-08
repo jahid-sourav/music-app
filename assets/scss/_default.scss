@@ -12,10 +12,10 @@ body {
 p,
 .paragraph {
     font-family: $primary-font;
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 1.9;
-    color: $secondary-color;
+    color: $white-50-color;
 }
 
 h1,
@@ -56,6 +56,15 @@ h6,
 }
 
 /*  typography Ends Here*/
+
+// Color Starts Here
+.text-white-50{
+    color: $white-50-color !important;
+}
+.text-info{
+    color: $info-color !important;
+}
+// Color Ends Here
 
 // BG Color Starts Here
 .bg-primary {
@@ -108,5 +117,7 @@ h6,
 // Buttons Ends Here
 
 // Border Radious Starts Here
-
+.rounded-2{
+    border-radius: 8px !important;
+}
 // Border Radious Ends Here
