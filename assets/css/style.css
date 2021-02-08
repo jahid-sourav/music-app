@@ -117,6 +117,41 @@ h6,
   color: #F9F8FF;
 }
 
+.btn-link {
+  text-decoration: none;
+  color: #7971E9;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btn-link:hover {
+  color: #F9F8FF;
+}
+
+.btn-link:hover svg {
+  margin-right: 2px !important;
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear;
+}
+
+.btn-link:hover svg path {
+  fill: #F9F8FF;
+}
+
+.btn-link svg {
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear;
+}
+
+.btn-link svg path {
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear;
+}
+
+.btn-lg {
+  padding: 10px 35px !important;
+}
+
 .rounded-2 {
   border-radius: 8px !important;
 }
@@ -192,7 +227,7 @@ select:focus {
 }
 
 .banner-area {
-  padding: 200px 0px;
+  padding: 180px 0px;
   background-image: url(../images/hero/banner.png);
   background-size: cover;
   background-position: center;
