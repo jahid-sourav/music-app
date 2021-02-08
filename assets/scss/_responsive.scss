@@ -1,0 +1,181 @@
+//Responsive ==> 
+
+//extra Small devices 420px
+@media (max-width: 420px) {
+
+    // Typography
+    h2 {
+        font-size: 28px;
+        line-height: 1.4;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    // Section Padding
+    .section-padding {
+        padding: 30px 0px;
+    }
+
+    // Banner
+    .banner-area {
+        padding: 80px 0px;
+    }
+
+    // Brands
+    .brand {
+        padding: 30px 0px;
+    }
+
+    // Footer==> Quick Links
+    .quick-links {
+        h4 {
+            margin-bottom: 0;
+        }
+
+        a {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    }
+}
+
+// Small devices 420px - 574px
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+
+    // Typography
+    h2 {
+        font-size: 30px;
+        line-height: 1.4;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    // Section Padding
+    .section-padding {
+        padding: 30px 0px;
+    }
+
+    // Banner
+    .banner-area {
+        padding: 120px 0px;
+    }
+
+    // Brands
+    .brand {
+        padding: 30px 0px;
+    }
+
+    // Footer==> Quick Links
+    .quick-links {
+        h4 {
+            margin-bottom: 0;
+        }
+
+        a {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    }
+}
+
+// Small devices 575px - 767px
+@media (min-width: 575px) and (max-width: 767px) {
+
+    // Typography
+    h2 {
+        font-size: 30px;
+        line-height: 1.4;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    // Section Padding
+    .section-padding {
+        padding: 30px 0px;
+    }
+
+    // Banner
+    .banner-area {
+        padding: 120px 0px;
+    }
+
+    // Brands
+    .brand {
+        padding: 30px 0px;
+    }
+
+    // Footer==> Quick Links
+    .quick-links {
+        h4 {
+            margin-bottom: 0;
+        }
+
+        a {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    }
+}
+
+// Medium devices 768px - 991px
+@media (min-width: 768px) and (max-width: 991px) {
+    h2 {
+        font-size: 30px;
+        line-height: 1.4;
+    }
+
+    .banner-area {
+        padding: 120px 0px;
+    }
+
+    // Section Padding
+    .section-padding {
+        padding: 50px 0px;
+    }
+}
+
+// large devices 992px - 1200px
+@media (min-width: 992px) and (max-width: 1200px) {
+    h2 {
+        font-size: 34px;
+        line-height: 1.4;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .banner-area {
+        padding: 180px 0px;
+    }
+}

@@ -1,18 +1,16 @@
 /*
-THEME:   Template
+THEME:   Music App Template
 VERSION: 1.0.0
-AUTHOR: 
-GITHUB: 
-WEBSITE: 
-TWITTER: 
-FACEBOOK: 
+AUTHOR: Jahidul Islam
+GITHUB: https://github.com/jahid-sourav
+FACEBOOK: https://www.facebook.com/jahidulislam05
 */
 
 @import 'mixins';
 @import 'variables';
 @import 'default';
 @import 'common';
+@import 'responsive';
 
 // Theme Custom Style
-@import 'theme/customtheme';
 @import 'theme/components/header';

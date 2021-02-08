@@ -49,10 +49,7 @@ header {
 @media (max-width: 420px) {
     .navbar-brand {
         margin-right: 0 !important;
-
-        img {
-            max-width: 85% !important;
-        }
+        max-width: 70%;
     }
 }
 

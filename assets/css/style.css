@@ -1,11 +1,9 @@
 /*
-THEME:   Template
+THEME:   Music App Template
 VERSION: 1.0.0
-AUTHOR: 
-GITHUB: 
-WEBSITE: 
-TWITTER: 
-FACEBOOK: 
+AUTHOR: Jahidul Islam
+GITHUB: https://github.com/jahid-sourav
+FACEBOOK: https://www.facebook.com/jahidulislam05
 */
 /*  typography Starts Here*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
@@ -282,6 +280,10 @@ select:focus {
   border-bottom-right-radius: 20px;
 }
 
+.quick-links h4 {
+  color: #7971E9;
+}
+
 .quick-links a {
   margin-top: 20px;
   display: inline-block;
@@ -304,6 +306,128 @@ select:focus {
 
 .social-links a:hover {
   color: #7971E9;
+}
+
+@media (max-width: 420px) {
+  h2 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .section-padding {
+    padding: 30px 0px;
+  }
+  .banner-area {
+    padding: 80px 0px;
+  }
+  .brand {
+    padding: 30px 0px;
+  }
+  .quick-links h4 {
+    margin-bottom: 0;
+  }
+  .quick-links a {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+  h2 {
+    font-size: 30px;
+    line-height: 1.4;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .section-padding {
+    padding: 30px 0px;
+  }
+  .banner-area {
+    padding: 120px 0px;
+  }
+  .brand {
+    padding: 30px 0px;
+  }
+  .quick-links h4 {
+    margin-bottom: 0;
+  }
+  .quick-links a {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+  h2 {
+    font-size: 30px;
+    line-height: 1.4;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .section-padding {
+    padding: 30px 0px;
+  }
+  .banner-area {
+    padding: 120px 0px;
+  }
+  .brand {
+    padding: 30px 0px;
+  }
+  .quick-links h4 {
+    margin-bottom: 0;
+  }
+  .quick-links a {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  h2 {
+    font-size: 30px;
+    line-height: 1.4;
+  }
+  .banner-area {
+    padding: 120px 0px;
+  }
+  .section-padding {
+    padding: 50px 0px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  h2 {
+    font-size: 34px;
+    line-height: 1.4;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  .banner-area {
+    padding: 180px 0px;
+  }
 }
 
 header .navbar-nav .nav-item .active {
@@ -349,9 +473,7 @@ header .navbar-nav .nav-item .nav-link:hover::after {
 @media (max-width: 420px) {
   .navbar-brand {
     margin-right: 0 !important;
-  }
-  .navbar-brand img {
-    max-width: 85% !important;
+    max-width: 70%;
   }
 }
 
