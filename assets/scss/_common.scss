@@ -61,4 +61,20 @@ select {
 }
 
 // Margin & Padding Ends Here
+
+// Line Starts Here
+.has-line{
+	position: relative;
+	&::before{
+		position: absolute;
+		content: '';
+		top: 0;
+		left: -10px;
+		height: 100%;
+		width: 4px;
+		background-color: $primary-color;
+		border-radius: 10px;
+	}
+}
+// Line Ends Here
 // Custom Theme Components & Items Or Section CSS Ends Here

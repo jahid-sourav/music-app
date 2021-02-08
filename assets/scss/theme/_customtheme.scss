@@ -39,3 +39,28 @@
     }
 }
 // Musicplayer Item Ends Here
+
+// Footer==> Quick Links Starts Here
+.quick-links{
+    a{
+        margin-top: 20px; 
+        display: inline-block;
+        color: $white-color;
+        transition: 0.3s all linear;
+        &:hover{
+            color: $primary-color;
+        }
+    }
+}
+.social-links{
+    a{
+        margin: 0 10px;
+        font-size: 20px;
+        color: $white-color;
+        transition: 0.3s all linear;
+        &:hover{
+            color: $primary-color;
+        }
+    }
+}
+// Footer==> Quick Links Ends Here

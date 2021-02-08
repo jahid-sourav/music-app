@@ -230,6 +230,21 @@ select:focus {
   margin-right: 50px;
 }
 
+.has-line {
+  position: relative;
+}
+
+.has-line::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: -10px;
+  height: 100%;
+  width: 4px;
+  background-color: #7971E9;
+  border-radius: 10px;
+}
+
 .banner-area {
   padding: 180px 0px;
   background-image: url(../images/hero/banner.png);
@@ -265,6 +280,30 @@ select:focus {
   background-color: #1B262C;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+.quick-links a {
+  margin-top: 20px;
+  display: inline-block;
+  color: #F9F8FF;
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear;
+}
+
+.quick-links a:hover {
+  color: #7971E9;
+}
+
+.social-links a {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #F9F8FF;
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear;
+}
+
+.social-links a:hover {
+  color: #7971E9;
 }
 
 header .navbar-nav .nav-item .active {
