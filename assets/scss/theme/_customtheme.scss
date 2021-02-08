@@ -7,3 +7,35 @@
     background-repeat: no-repeat;
 }
 // Banner Area Ends Here
+
+// Brand Area Starts Here
+.brand{
+    svg{
+        cursor: pointer;
+        path{
+            transition: 0.3s all linear;
+        }
+        &:hover{
+            path{
+                fill: $white-color;
+            }
+        }
+    }
+}
+// Brand Area Ends Here
+
+// Musicplayer Item Starts Here
+.musicplayer{
+    border: 1px solid #707070;
+    border-radius: 20px;
+    img{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .card-body{
+        background-color: #1B262C;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+}
+// Musicplayer Item Ends Here

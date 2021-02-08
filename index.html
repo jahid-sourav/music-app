@@ -23,6 +23,15 @@
   <link rel="stylesheet" href="assets/icon/bootstrap-icons.css">
   <!-- Bootstrap Icon Link Ends Here-->
 
+  <!-- Fontawesome CDN Link Starts Here -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+  <!-- Fontawesome CDN Link Ends Here -->
+
+  <!-- AudioPlayer JS Link Starts Here -->
+  <link rel="stylesheet" href="assets/css/audioplayer.css">
+  <!-- AudioPlayer JS Link Ends Here-->
+
   <!-- Slick Slider CSS Link Starts Here-->
   <link rel="stylesheet" href="assets/css/slick.css">
   <!-- Slick Slider CSS Link Ends Here-->
@@ -105,7 +114,7 @@
   <!-- Banner Section Ends Here -->
 
   <!-- Brand Section Starts Here -->
-  <section class="py-70 bg-secondary">
+  <section class="py-70 bg-secondary brand">
     <div class="container">
       <div class="row align-items-center justify-content-around text-center">
         <div class="col-lg-2">
@@ -265,6 +274,100 @@
   </section>
   <!-- Feature Area Ends Here -->
 
+  <!-- Playlist Area Starts Here -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-5">
+          <h3>Hand-picked playlists</h3>
+          <p class="my-4">
+            Stream guest playlists curated by the artists you love. Also, check out our original playlists hand-picked
+            by our team of experts.
+          </p>
+          <div class="d-flex align-items-center">
+            <a href="#" class="fs-6 btn-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="23" viewBox="0 0 14 23" class="me-2">
+                <g id="interface" transform="translate(0 23) rotate(-90)">
+                  <path id="Path"
+                    d="M2.86,23A2.85,2.85,0,0,1,.787,18.186l6.4-6.706L.794,4.82A2.856,2.856,0,0,1,4.928.88L13.207,9.5a2.845,2.845,0,0,1,.007,3.934L4.935,22.114A2.864,2.864,0,0,1,2.86,23Z"
+                    transform="translate(23) rotate(90)" fill="#7971e9" />
+                </g>
+              </svg> Discover Radioheat</a>
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-1">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="card musicplayer">
+                <img src="assets/images/feature/01.jpg" class="card-img-top" alt="Musician">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between mb-4">
+                    <div class="d-flex flex-column">
+                      <h5 class="card-title mb-0"><a href="#" class="text-white">The Weekend</a></h5>
+                      <p>Startboy</p>
+                    </div>
+                    <div class="div">
+                      <a href="#"><i class="bi bi-three-dots-vertical text-white"></i></a>
+                    </div>
+                  </div>
+                  <div class="player">
+                    <div class="seek">
+                      <div class="fill"></div>
+                    </div>
+                    <div class="btns">
+                      <a href="#"><i class="bi bi-skip-start-fill"></i></a>
+                      <button href="#" class="play-btn" onclick="togglePlayPause()">
+                        <i class="fas fa-play"></i>
+                      </button>
+                      <a href="#"><i class="bi bi-skip-end-fill"></i></a>
+                    </div>
+                    <audio class="song">
+                      <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/308622/Leo%20-%20Trying.mp3"
+                        type="audio/mp3" />
+                    </audio>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card musicplayer">
+                <img src="assets/images/feature/02.jpg" class="card-img-top" alt="Musician">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between mb-4">
+                    <div class="d-flex flex-column">
+                      <h5 class="card-title mb-0"><a href="#" class="text-white">Drake</a></h5>
+                      <p>Good Plan</p>
+                    </div>
+                    <div class="div">
+                      <a href="#"><i class="bi bi-three-dots-vertical text-white"></i></a>
+                    </div>
+                  </div>
+                  <div class="player">
+                    <div class="seek">
+                      <div class="fill"></div>
+                    </div>
+                    <div class="btns">
+                      <a href="#"><i class="bi bi-skip-start-fill"></i></a>
+                      <button href="#" class="play-btn" onclick="togglePlayPause()">
+                        <i class="fas fa-play"></i>
+                      </button>
+                      <a href="#"><i class="bi bi-skip-end-fill"></i></a>
+                    </div>
+                    <audio class="song">
+                      <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/308622/Leo%20-%20Trying.mp3"
+                        type="audio/mp3" />
+                    </audio>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Playlist Area Ends Here -->
+
   <!-- Footer Starts Here -->
   <footer>
 
@@ -279,6 +382,10 @@
   <!-- Bootstrap JS Link Starts Here -->
   <script src="assets/script/vendor/bootstrap.bundle.min.js"></script>
   <!-- Bootstrap JS Link Ends Here -->
+
+  <!-- AudioPlayer JS Link Starts Here -->
+  <script src="assets/script/vendor/audioplayer.js"></script>
+  <!-- AudioPlayer JS Link Ends Here -->
 
   <!-- Slick Slider JS Link Starts Here -->
   <script src="assets/script/vendor/slick.min.js"></script>

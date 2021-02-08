@@ -72,6 +72,10 @@ h6,
   color: #7971E9 !important;
 }
 
+.text-white {
+  color: #F9F8FF !important;
+}
+
 .bg-primary {
   background-color: #7971E9 !important;
 }
@@ -232,6 +236,35 @@ select:focus {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.brand svg {
+  cursor: pointer;
+}
+
+.brand svg path {
+  -webkit-transition: 0.3s all linear;
+  transition: 0.3s all linear;
+}
+
+.brand svg:hover path {
+  fill: #F9F8FF;
+}
+
+.musicplayer {
+  border: 1px solid #707070;
+  border-radius: 20px;
+}
+
+.musicplayer img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.musicplayer .card-body {
+  background-color: #1B262C;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 header .navbar-nav .nav-item .active {
